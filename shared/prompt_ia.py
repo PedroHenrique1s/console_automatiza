@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 from google.genai import errors
 from dotenv import load_dotenv
-from filtra_log import extrair_blocos_de_erro
+from .filtra_log import extrair_blocos_de_erro
 
 load_dotenv()
 
